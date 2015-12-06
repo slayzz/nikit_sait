@@ -16,6 +16,7 @@ body {
 }
 
 
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -55,6 +56,14 @@ body {
 .btn-light:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
+}
+
+
+.btns:hover {
+    color: #000000;
+    background: white;
+    text-decoration: none; /* Делает ссылку подчеркнутой при наведении на нее курсора */  /* Цвет ссылки */
+
 }
 
 /* Custom Horizontal Rule */
@@ -164,7 +173,7 @@ hr.small {
     font-weight: 700;
 }
 
-#button_a_blok1 {
+.button_a_blok1 {
     font-size : 1.8em;
     border: 3px solid white;
     border-radius: 10px;
@@ -173,7 +182,7 @@ hr.small {
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
-    margin-top : 100px;
+
 }
 
 
@@ -189,6 +198,13 @@ hr.small {
     font-weight: bold;
 }
 
+#div_first_button{
+    margin-top : 15%;
+}
+
+.a_blok5 {
+    margin-top: 5%;
+}
 
 /* Services */
 
@@ -271,20 +287,34 @@ hr.small {
 
 /* Portfolio */
 
+
 .portfolio {
     padding: 50px 0;
-
-    background:url(../images/blok5/background.jpg) #212056 no-repeat center center scroll;
-    opacity: 0.4;
+    background:url(../images/blok5/fon.png) #212056 no-repeat center center scroll;
     opacity: 1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-#for_opacity{
 
+#for_new_year{
+    color: white;
+    font-size : 2em;
+    font-weight: 600;
+}
 
+.text_portfolio{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.text_portfolio +p{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color:white;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 .portfolio-item {
     margin-bottom: 30px;
@@ -294,8 +324,132 @@ hr.small {
     margin: 0 auto;
 }
 
+.img-ramka{
+    background: url("/images/blok5/dzhinsovy-pattern.png"); /* родительский фон за счёт padding */
+    padding: 5px;
+    border: solid 10px white;
+    box-shadow: 0 0 0 1px #a5af2a;
+}
+
 .img-portfolio:hover {
     opacity: 0.8;
+}
+.img-heart{
+
+}
+.button_for_blok_small5{
+    font-size : 1em;
+    font-weight: 500;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.button_for_blok_5{
+    font-size : 1.2em;
+    font-weight: 600;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fonts_blok5{
+    color:white;
+    font-size: 0.6em;
+}
+
+
+/* Images */
+
+#for_images {
+    padding: 50px 0;
+    background:url(../images/blok6/simple-carousel.png) #212056 no-repeat center center scroll;
+    opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.vertical{
+
+}
+
+
+.vertical_row{
+
+
+}
+
+.right {
+    margin-top: -20%;
+}
+
+.left {
+    margin-top: 15%;
+}
+
+.img_big{
+    z-index: 1000;
+    position: relative;
+    width: 40%;
+    height: 40%;
+
+}
+.img_small_left {
+    z-index: 3;
+    width: 15%;
+    height: 15%;
+    margin-top: 0%;
+    position: relative;
+    left: 10%;
+}
+
+.img_small_right{
+    z-index: 3;
+    width: 15%;
+    height: 15%;
+    margin-top: 0%;
+    position: relative;
+    left: -10%;
+}
+
+.str_left{
+    position: relative;
+    left: 5%;
+    width: 5%;
+    height: 5%;
+}
+
+.str_right{
+    position: relative;
+    right: 5%;
+    width: 5%;
+    height: 5%;
+}
+
+
+.slider_dots{
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.slider_dots li {
+    color: #bbbcbc;
+    display: inline;
+    font-size: 30px;
+    margin-right: 5px;
+
 }
 
 /* Call to Action */
