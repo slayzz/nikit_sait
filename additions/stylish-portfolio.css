@@ -204,41 +204,49 @@ hr.small {
     font-size: 2em;
     margin-top: -1%;
     margin-bottom: 4%;
-
 }
 
 .service-item {
     margin-bottom: 30px;
-
-    width: 120%;
+    width: 100%;
 }
 .service-item p{
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-weight: 400;
 }
 .service-item h4{
 
 }
 .text_for_cirlce {
+    color : #212056;
     margin-top: 50px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 600;
+    -webkit-text-stroke: 2px white;
+    -moz-text-stroke: 2px white;
+
+
 
 }
 
 
 
 .circle {
-    width: 95%;
+    width: 100%;
 }
 
 .font_under_circle{
-    margin-top: 20%;
+    margin-top: 40%;
+
 
 }
 
 #new_year_text{
-    margin-top: 10%;
+    margin-top: 15%;
+}
+
+.container{
+
 }
 /* Callout */
 
