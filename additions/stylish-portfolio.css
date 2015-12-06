@@ -10,8 +10,9 @@ html,
 body {
     width: 100%;
     height: 100%;
-    font-family:  "SourceSansProBold",sans-serif;
+    font-family: "Source Sans Pro";
     font-size : 18pt;
+    font-weight: 700;
 }
 
 
@@ -154,16 +155,17 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../images/blok1/background.png) no-repeat center center scroll;
+    background: url(../images/blok1/background.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     color: white;
+    font-weight: 700;
 }
 
 #button_a_blok1 {
-    font-size : 2.3em;
+    font-size : 1.8em;
     border: 3px solid white;
     border-radius: 10px;
     color: white;
@@ -182,7 +184,9 @@ hr.small {
     padding: 50px 0;
 }
 .font_about{
-    color: blue;
+    font-size: 35pt;
+    color: #212056;
+    font-weight: bold;
 }
 
 
@@ -190,12 +194,14 @@ hr.small {
 
 .services {
     padding: 50px 0;
-    background-color: indigo;
+    background-color: #212056;
     /*background-repeat: no-repeat;*/
     background-size : cover;
 }
 
 #services_h2{
+    font-weight: bold;
+    font-size: 2em;
     margin-top: -1%;
     margin-bottom: 4%;
 
@@ -203,25 +209,37 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+
+    width: 120%;
 }
 .service-item p{
-    font-size: 14pt;
+    font-size: 0.8em;
+    font-weight: 400;
 }
 .service-item h4{
 
 }
-
 .text_for_cirlce {
     margin-top: 50px;
-    font-size: 18pt;
+    font-size: 1.1em;
+    font-weight: 600;
+
 }
 
 
 
 .circle {
+    width: 95%;
+}
+
+.font_under_circle{
+    margin-top: 20%;
 
 }
 
+#new_year_text{
+    margin-top: 10%;
+}
 /* Callout */
 
 .callout {
@@ -239,16 +257,27 @@ hr.small {
 #text_callout {
     margin-top: 40%;
     margin-bottom: 5%;
-    border: 1px red solid;
-    font-size : 100px
+    font-size : 100px;
+    font-weight: bold;
 }
 
 /* Portfolio */
 
 .portfolio {
     padding: 50px 0;
-}
 
+    background:url(../images/blok5/background.jpg) #212056 no-repeat center center scroll;
+    opacity: 0.4;
+    opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#for_opacity{
+
+
+}
 .portfolio-item {
     margin-bottom: 30px;
 }
